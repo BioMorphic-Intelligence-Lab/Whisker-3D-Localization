@@ -1,0 +1,98 @@
+!SESSION 2023-09-19 13:55:20.968 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-19 13:55:30.742
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-19 13:55:30.745
+!MESSAGE Log4j2 initialized with config file C:\Users\chaoxiangye\STM32CubeIDE\workspace_1.12.0\whiskeropt2.0\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-19 13:55:33.422
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-09-19 13:56:13.528
+!MESSAGE Exception trying to parse option [#include <c:\cx\cubeide\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\bin\../arm-none-eabi/include/newlib-nano>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1135)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.determineMappedURI(AbstractLanguageSettingsOutputScanner.java:1014)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1186)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-09-19 13:56:13.530
+!MESSAGE Exception trying to parse option [#include <c:\cx\cubeide\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/include>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1135)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-09-19 13:56:13.531
+!MESSAGE Exception trying to parse option [#include <c:\cx\cubeide\stm32cubeide_1.12.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed>], class CrossBuiltinSpecsDetector
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1135)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.findContainerForLocationURI(AbstractLanguageSettingsOutputScanner.java:818)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.resolvePathEntryInWorkspace(AbstractLanguageSettingsOutputScanner.java:1241)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.createResolvedPathEntry(AbstractLanguageSettingsOutputScanner.java:1193)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:606)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:256)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:180)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:101)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:60)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:60)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:22.312
+!MESSAGE Indexed 'C04' (19 sources, 100 headers) in 2.31 sec: 7,799 declarations; 35,694 references; 10 unresolved inclusions; 33 syntax errors; 352 unresolved names (0.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:23.561
+!MESSAGE Indexed 'whiskeropt' (24 sources, 116 headers) in 1.23 sec: 9,471 declarations; 47,016 references; 2 unresolved inclusions; 33 syntax errors; 194 unresolved names (0.34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:24.392
+!MESSAGE Indexed 'testing' (17 sources, 104 headers) in 0.799 sec: 6,976 declarations; 24,541 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.59%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:25.137
+!MESSAGE Indexed 'test1' (20 sources, 107 headers) in 0.727 sec: 7,421 declarations; 29,197 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.51%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:25.813
+!MESSAGE Indexed 'C6T7' (19 sources, 108 headers) in 0.674 sec: 7,478 declarations; 33,555 references; 2 unresolved inclusions; 33 syntax errors; 188 unresolved names (0.46%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:26.602
+!MESSAGE Indexed 'whiskercompensate' (27 sources, 119 headers) in 0.752 sec: 9,475 declarations; 47,015 references; 2 unresolved inclusions; 33 syntax errors; 188 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:27.386
+!MESSAGE Indexed 'BMP390breakout' (23 sources, 113 headers) in 0.77 sec: 8,714 declarations; 35,087 references; 2 unresolved inclusions; 36 syntax errors; 190 unresolved names (0.43%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:28.069
+!MESSAGE Indexed 'whiskeropt2' (23 sources, 114 headers) in 0.663 sec: 8,961 declarations; 46,857 references; 2 unresolved inclusions; 33 syntax errors; 188 unresolved names (0.34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:28.921
+!MESSAGE Indexed 'whistest' (27 sources, 119 headers) in 0.819 sec: 10,198 declarations; 50,466 references; 3 unresolved inclusions; 33 syntax errors; 188 unresolved names (0.31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:29.524
+!MESSAGE Indexed 'test12_SPI' (24 sources, 104 headers) in 0.6 sec: 8,690 declarations; 24,897 references; 0 unresolved inclusions; 90 syntax errors; 56 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:30.297
+!MESSAGE Indexed 'whiskeropt2.0' (27 sources, 110 headers) in 0.762 sec: 9,443 declarations; 46,355 references; 11 unresolved inclusions; 33 syntax errors; 487 unresolved names (0.87%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-19 13:56:30.928
+!MESSAGE Indexed '103' (18 sources, 104 headers) in 0.629 sec: 7,304 declarations; 28,834 references; 2 unresolved inclusions; 35 syntax errors; 188 unresolved names (0.52%)
