@@ -5,7 +5,7 @@
 2. [PCB design](#design)
 3. [Data reading](#reading)
 4. [3D-Localization](#3D-Localization)
-   1. [Installation](#Installation)
+   1. [Overview](#Overview)
    2. [Dataset](#Dataset)
    3. [Model training](#training) 
    4. [Test](#Test) 
@@ -15,7 +15,7 @@
 
 ![]()
 
-<b>A Biomorphic Whisker Sensor for Aerial Tactile Applications</b>, **Chaoxiang Ye**, Guido de Croon, and Salua Hamaza. <br>
+<b>A Biomorphic Whisker Sensor for Aerial Tactile Applications</b>, Chaoxiang Ye, Guido de Croon, and Salua Hamaza. <br>
 2024 IEEE International Conference on Robotics and Automation (ICRA 2024), Under Review. <br>
 
 ## PCB design <a name="design"></a>
