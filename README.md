@@ -19,7 +19,7 @@
 2024 IEEE International Conference on Robotics and Automation (ICRA 2024), Under Review. <br>
 
 ## PCB design <a name="design"></a>
-Including KiCAD files and the manufacturer's files. The manufacturer's files encompass the gerber file, Bill of Materials (BOM), and position file. The primary electronic components consist of barometers and microcontrollers. We suggest employing the BMP390 and STM32F070F6 to meet the PCB design specifications. In the event of a microcontroller substitution, we recommend opting for one with a minimum of 32Kbytes flash memory.
+Including KiCAD files and the manufacturer's files. The manufacturer's files encompass the gerber file, Bill of Materials (BOM), and position file. The primary electronic components consist of barometers and microcontrollers. To optimize sensing ability and PCB size, we recommend utilizing the BMP390 along with the STM32F070F6. In the event of a microcontroller substitution, we recommend opting for one with a minimum of 32Kbytes flash memory.
 ## Data reading <a name="reading"></a>
 
 ## 3D-Localization <a name="3D-Localization"></a>
