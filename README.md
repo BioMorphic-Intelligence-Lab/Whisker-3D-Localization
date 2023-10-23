@@ -5,7 +5,7 @@
 2. [PCB design](#design)
 3. [Data reading](#reading)
 4. [3D-Localization](#3D-Localization)
-   1. [Overview](#Overview)
+   1. [Installation](#Installation)
    2. [Dataset](#Dataset)
    3. [Model training](#training) 
    4. [Test](#Test) 
@@ -24,7 +24,7 @@
 
 ## 3D-Localization <a name="3D-Localization"></a>
 
-### Installation <a name="installation"></a>
+### Installation <a name="Installation"></a>
 
 ### Dataset <a name="Dataset"></a>
 
