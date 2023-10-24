@@ -9,10 +9,11 @@
    2. [Installation](#Installation)
    3. [Dataset](#Dataset)
    4. [Model training](#training) 
-   5. [Test](#Test) 
+   5. [Test](#Test)
+5. [Contact](#Contact)
 
 ## Overview <a name="overview"></a>
-**This repository provides open-source files of the paper:**
+**This repository contains open-source files for paper:**
 <p align="center">
   <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/overview-git.png" width="95%" />
 </p>
@@ -47,3 +48,6 @@ We use the In-system programming (ISP) to download the program into the STM32. I
 ### Model training <a name="training"></a>
 
 ### Test <a name="Test"></a>
+
+## Contact <a name="Contact"></a>
+If you have any questions, feel free to contact us through email (C.Ye@tudelft.nl). Enjoy!
