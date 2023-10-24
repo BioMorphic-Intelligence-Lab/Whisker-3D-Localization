@@ -14,7 +14,7 @@
 ## Overview <a name="overview"></a>
 **This repository provides open-source files of the paper:**
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/overview-git.png" width="85%" />
+  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/overview-git.png" width="95%" />
 </p>
 
 <b>A Biomorphic Whisker Sensor for Aerial Tactile Applications</b>, Chaoxiang Ye, Guido de Croon, and Salua Hamaza. <br>
