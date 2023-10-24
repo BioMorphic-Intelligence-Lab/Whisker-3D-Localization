@@ -42,6 +42,11 @@ We use the In-system programming (ISP) to download the program into the STM32. I
 </p>
 
 ### Installation <a name="Installation"></a>
+We implemented this code, under the following packages:
+* Python 3.8.17
+* Pytorch 2.0.1
+* Numpy 1.24.3
+* Scikit-learn 1.2.2
 
 ### Dataset <a name="Dataset"></a>
 
