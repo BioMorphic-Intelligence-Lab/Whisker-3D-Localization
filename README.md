@@ -28,7 +28,7 @@ Including KiCAD files and the manufacturer's files. The manufacturer's files enc
 
 Including all programs utilizing the STM32 to read data from three BMP390s. The SPI bus is employed for communication between the STM32 and the BMP390, where the chip select pins are sequentially lowered to read sensor data in sequence. Additionally, a UART is utilized for communication between the STM32 and the PC.
 
-We use the In-system programming (ISP) to download the program into the STM32. Initially, the BOOT0 pin necessitates a pull-up, which entails soldering an additional wire on the PCB, connecting BOOT0 to any of the leads linked to the 3.3V (PWR-layer). Subsequently, employ the MCU ISP software to flash the "whiskeropt2.0.hex" file from the Data Reading folder onto the STM32, ensuring the baud rate is set to 115200.
+We use the In-system programming (ISP) to download the program into the STM32. Initially, the BOOT0 pin necessitates a pull-up, which entails soldering an additional wire on the PCB, connecting BOOT0 to any of the leads linked to the 3.3V (PWR-layer). Subsequently, employ the MCU ISP software to flash the "whiskeropt2.0.hex" file from the Data Reading folder onto the STM32, ensuring the baud rate is set to 115200. Please be aware that when reading data, it is imperative to configure the baud rate in accordance with the parameter specified in the "usart.c" file. In this instance, we have set it to 230400.
 ## 3D-Localization <a name="3D-Localization"></a>
 ### Architecture <a name="Architecture"></a>
 ![](images/architecture-git.png)
