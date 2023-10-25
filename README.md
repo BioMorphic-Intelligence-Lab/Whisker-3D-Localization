@@ -48,6 +48,9 @@ We implemented this code, under the following packages:
 * Numpy 1.24.3
 * Scikit-learn 1.2.2
 
+Scikit-learn is exclusively utilized for selecting hyperparameters in the grid search process. Below, we provide our optimal hyperparameters determined through the grid search method:
+
+
 ### Dataset <a name="Dataset"></a>
 
 ### Model training <a name="training"></a>
