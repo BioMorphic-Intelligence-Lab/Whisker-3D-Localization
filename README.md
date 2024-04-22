@@ -19,7 +19,7 @@
 </p>
 
 <b>A Biomorphic Whisker Sensor for Aerial Tactile Applications</b>, Chaoxiang Ye, Guido de Croon, and Salua Hamaza. <br>
-2024 IEEE International Conference on Robotics and Automation (ICRA 2024), Under Review. <br>
+2024 IEEE International Conference on Robotics and Automation (ICRA 2024). <br>
 
 ## PCB design <a name="design"></a>
 <p align="center">
