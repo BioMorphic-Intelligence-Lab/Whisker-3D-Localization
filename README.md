@@ -48,15 +48,21 @@ We implemented this code, under the following packages:
 * Numpy 1.24.3
 * Scikit-learn 1.2.2
 
-Scikit-learn is exclusively utilized for selecting hyperparameters in the grid search process. Below, we provide our optimal hyperparameters determined through the grid search method:
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/hyperparameters.png" width="80%" />
-</p>
+Scikit-learn is exclusively utilized for selecting hyperparameters in the grid search process.
 
 
 ### Dataset <a name="Dataset"></a>
+The dataset was split into training, validation, and test sets. The training set contains 6,068,046 frames, while both the validation and test sets have 1,504,834 frames each. The validation set is solely employed for hyperparameter selection. We show the training dataset as an example:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/trainingset.png" width="80%" />
+</p>
 
 ### Model training <a name="training"></a>
+The training set was randomly shuffled in each epoch. All models were using the Adam optimizer.
+Below, we provide our optimal hyperparameters determined through the grid search method:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/hyperparameters.png" width="80%" />
+</p>
 
 ### Test <a name="Test"></a>
 
