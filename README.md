@@ -61,7 +61,7 @@ The dataset was split into training, validation, and test sets. The training set
 The training set was randomly shuffled in each epoch. All models were using the Adam optimizer.
 Below, we provide our optimal hyperparameters determined through the grid search method:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/hyperparameters.png" width="80%" />
+  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/hyper-parameters.png" width="80%" />
 </p>
 
 ### Test <a name="Test"></a>
