@@ -54,7 +54,7 @@ Scikit-learn is exclusively utilized for selecting hyperparameters in the grid s
 ### Dataset <a name="Dataset"></a>
 The dataset was split into training, validation, and test sets. The training set contains 6,068,046 frames, while both the validation and test sets have 1,504,834 frames each. The validation set is solely employed for hyperparameter selection. We show the training dataset as an example:
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/trainingset.png" width="80%" />
+  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/trainingset.png" width="90%" />
 </p>
 
 ### Model training <a name="training"></a>
