@@ -49,6 +49,9 @@ We implemented this code, under the following packages:
 * Scikit-learn 1.2.2
 
 Scikit-learn is exclusively utilized for selecting hyperparameters in the grid search process. Below, we provide our optimal hyperparameters determined through the grid search method:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/hyperparemeters.png" width="90%" />
+</p>
 
 
 ### Dataset <a name="Dataset"></a>
