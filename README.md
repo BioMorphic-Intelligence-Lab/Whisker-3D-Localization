@@ -87,7 +87,7 @@ python main.py --num_epochs 30 --input_size 3 --num_layers 3 --hidden_size 32 --
 ```
 ### Test <a name="Test"></a>
 ```
-python main.py --test --model_file your_file_name
+python main.py -test --model_file your_file_name
 ```
 
 ## Contact <a name="Contact"></a>
