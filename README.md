@@ -49,6 +49,7 @@ conda create -n whisker python=3.8
 Clone the source code from our github repository
 ```
 git clone https://github.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization.git
+cd Whisker-3D-Localization
 ```
 
 We implemented this code, under the following packages:
@@ -75,7 +76,19 @@ Below, we provide our optimal hyperparameters determined through the grid search
   <img src="https://raw.githubusercontent.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization/master/images/hyper-parameter.png" width="80%" />
 </p>
 
+To train the model by our optimal hyper-parameters
+```
+python main.py
+```
+
+To train the model by grid search method to find the optimal hyper-parameters
+```
+python main.py --num_epochs 30 --input_size 3 --num_layers 3 --hidden_size 32 --time_sequence 40 --batch_sizes 32 --learning_rates 0.0001 --regularization_values 0 --dropout_values 0.0
+```
 ### Test <a name="Test"></a>
+```
+python main.py --test --model_file your_file_name
+```
 
 ## Contact <a name="Contact"></a>
 If you have any questions, feel free to contact us through email (C.Ye@tudelft.nl). Enjoy!
