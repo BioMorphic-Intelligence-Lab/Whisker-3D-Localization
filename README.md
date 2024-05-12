@@ -42,12 +42,21 @@ We use the In-system programming (ISP) to download the program into the STM32. I
 </p>
 
 ### Installation <a name="Installation"></a>
+We suggest to create a conda env
+```
+conda create -n whisker python=3.8
+```
+Clone the source code from our github repository
+```
+git clone https://github.com/BioMorphic-Intelligence-Lab/Whisker-3D-Localization.git
+```
+
 We implemented this code, under the following packages:
 * Python 3.8.17
 * Pytorch 2.0.1
 * Numpy 1.24.3
 * Scikit-learn 1.2.2
-
+using conda to install the above packages.
 Scikit-learn is exclusively utilized for selecting hyperparameters in the grid search process.
 
 
