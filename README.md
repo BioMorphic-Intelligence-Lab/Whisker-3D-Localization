@@ -83,7 +83,7 @@ python main.py
 
 To train the model by grid search method to find the optimal hyper-parameters
 ```
-python main.py --num_epochs 30 --input_size 3 --num_layers 3 --hidden_size 32 --time_sequence 40 --batch_sizes 32 --learning_rates 0.0001 --regularization_values 0 --dropout_values 0.0
+python main.py --time_sequence [your_setting] --batch_sizes [your_setting] --learning_rates [your_setting] --regularization_values [your_setting] --dropout_values [your_setting]
 ```
 ### Test <a name="Test"></a>
 ```
