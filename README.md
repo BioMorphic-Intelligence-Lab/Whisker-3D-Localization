@@ -90,5 +90,6 @@ python main.py --time_sequence [your_setting] --batch_sizes [your_setting] --lea
 python main.py -test --model_file your_file_name
 ```
 
+We also provide our model weights at [best_model_save/best_model_ts_40_bs_32_lr_0.0001_reg_0_do_0.0_loss_0.1170.pt](best_model_save/best_model_ts_40_bs_32_lr_0.0001_reg_0_do_0.0_loss_0.1170.pt)
 ## Contact <a name="Contact"></a>
 If you have any questions, feel free to contact us through email (C.Ye@tudelft.nl). Enjoy!
